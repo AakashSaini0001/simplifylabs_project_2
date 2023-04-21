@@ -1,0 +1,58 @@
+*{
+ 
+  padding: 0;
+  color: rgb(111, 85, 9);
+}
+body{
+  background: url("bg.jpg");
+  mask-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box{
+  width: 40%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(246, 252, 193, 0.6);
+  margin: auto;
+
+}
+
+label{
+  font-size: 30px;
+}
+h2{
+  font-size: 30px;
+}
+input{
+  
+  font-size: 15px;
+  padding: 5px;
+  margin: 4px;
+}
+.RatingSection{
+  font-size: 20px;
+
+}
+h1{
+  font-size: 100px;
+  text-align-last: center;
+  color: rgb(126, 111, 18);
+}
+.submit{
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: content-box;
+
+}
+
+
+.name {
+  border: 0cap;
+  outline: auto;
+  padding-left: 22%;
+  padding-right: 22%;
+  color: rgb(124, 94, 12);
+}

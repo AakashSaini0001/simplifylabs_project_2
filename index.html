@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>first page</title>
+</head>
+
+<body>
+
+  <h1>Survey Form</h1>
+  <form>
+    <div class="box">
+
+      <div class="name">
+        <h2>Name</h2>
+          <label for="first_name">First Name :</label>        
+          <input required type="text" id="first_name" name="first_name"/><br>
+          <label for="last_name">Last Name : </label>
+          <input required type="text" id="Last_name" name="last_name"/><br>
+          <label for="Phone Number" id="Phone_number">Contact Number :</label>
+          <input required type="number" id="contact number" value="contact_number" /><br>
+        </br>
+
+        <div class="Address">
+          <h2>Address</h2>
+          <label for="Street">Street : </label>
+          <input required type="text" id="street" name="street"/><br>
+          <label for="City">City : </label>
+          <input required type="text" id="city" name="city"/><br>
+          <label for="State">State : </label>
+          <input required type="text" id="state" name="state"/><br>
+          <label for="Pincode">Pincode :</label>
+          <input required type="number" id="pin code" name="pincode"/><br>
+        </div>
+        <br>
+        <br>
+        
+        <div class="RatingSection">
+          <h2>Rating Section</h2> 
+          <label for="radio1">Quality of Product Recieved</label> <br>
+            <input type="radio" id="radio1" name="quality_of_product_recieved_rating" value="Excellent">Excellent <br>
+            <input type="radio" id="radio1" name="quality_of_product_recieved_rating" value="Good">Good<br>
+            <input type="radio" id="radio1" name="quality_of_product_recieved_rating" value="Bad">Bad<br>
+          <label for="radio2" >Value for Money</label> <br>
+            <input type="radio" id="radio2" name="value_for_money_rating" value="Excellent">Excellent <br>
+            <input type="radio" id="radio2" name="value_for_money_rating" value="Good">Good<br>
+            <input type="radio" id="radio2" name="value_for_money_rating" value="Bad">Bad<br>
+          <label for="radio3" >Delivery</label> <br>
+            <input type="radio" id="radio3" name="delivery_rating" value="Excellent">Excellent <br>
+            <input type="radio" id="radio3" name="delivery_rating" value="Good">Good<br>
+            <input type="radio" id="radio3" name="delivery_rating" value="Bad">Bad<br>
+        </div>
+        <input type="submit" value="Submit" class="submit" hover >
+        
+      </div>
+  </form>
+</body>
+
+</html>
